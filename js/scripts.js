@@ -13,3 +13,14 @@ $(function() {
     });
 });
 
+$(function() {
+    $("#reserveButton").click(function() {
+        $('#reserveModal').modal()
+    })
+});
+
+$(function() {
+    $('#loginButton').click(function() {
+        $('#loginModal').modal()
+    })
+})
